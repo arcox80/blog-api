@@ -55,7 +55,6 @@ describe('Blog API', function() {
 
   it('should update items on PUT', function() {
     const updateData = {title: 'First Modified Post', content: 'This post has been modified.', author: 'Andrew Cox', publishDate: '04/30/2017'};
-
     return chai.request(app)
       .get('/blog-posts')
       .then(function(res) {
