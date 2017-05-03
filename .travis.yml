@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: XOImGGibhpwxrI671xu4VRbSVO2wzWFhd0eEqBjB8+bDxofTbr9swKQsxriBgcfucBYK1sRbe/BTqZ4wCJqmFFHkIuWcjIjOvxQzPy3irgBHmtrrNIjvszQ1JoigSIM3lCUs14a6u1SQIsgifzXvGSpfnubB+vrLSmnIx4C8yKBhecjM+joM4uKbRezJI7dWlENjPmnc/6pm7TvYEl7xbc9XZUmbQURTMg5iMpX/jOTbp6ldhXSgh6aoKt23q4R9zmPvG+PtGu+vWk5OtMpy/nBlBkXc6rK9xgPmBFbUpSF5xA6kWZHY2fC/I9mqVWZ6QyRWttjWC0PF9aYYtqv/PstAmPHzPdphfcBv5TZ+uIGXNkCzGoxBVB/xCEBeVbdueb6L1NNgXZ0IEwv9U5TJpwv5ixNrD3PMlf/i15sZHy2IrQ4DYEE8a/3vwVpNieaeSOAyvU1VbWVM8vEorwX0gqo4oSA84GwUTGR5+EQ77b/si0IoEHmNsqzjlC8J/WLEEPaTC2xxQLSqXOIsnOBGx6meCkog7eyOIDOmWZvYNoPehbNIDYKj2ncItJVfy6sj+kU6PLQMLzDehPJheHLyKGGwv4wiryxAJEw7UMhHdxefugLjYZVGqYx0TNFnT+ZqakrR66aI/rQRD2bc5PV8BmNuFFfN8VYZ2K1LhdIjTXo=
+  app: limitless-bastion-15388
+  on:
+    repo: arcox80/blog-api
